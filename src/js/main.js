@@ -1,0 +1,3 @@
+new editHTML({
+    containerID: 'editor',
+})
