@@ -1,0 +1,190 @@
+@mixin font($fname, $fstyle, $fweight, $furl) {
+    @font-face {
+        font-family: $fname;
+        font-style: $fstyle;
+        font-weight: $fweight;
+        src: local($fname), url($furl) format('truetype');
+    }
+}
+
+// Icomoon icons
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?b14gkg');
+    src:  url('../fonts/icomoon.eot?b14gkg#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?b14gkg') format('truetype'),
+    url('../fonts/icomoon.woff?b14gkg') format('woff'),
+    url('../fonts/icomoon.svg?b14gkg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-light:before {
+    content: "\e931";
+}
+.icon-dark:before {
+    content: "\e932";
+}
+.icon-logo:before {
+    content: "\e930";
+}
+.icon-palette-a-without-line:before {
+    content: "\e92f";
+}
+.icon-table:before {
+    content: "\e92e";
+}
+.icon-palette:before {
+    content: "\e92d";
+}
+.icon-palette-a:before {
+    content: "\e92c";
+}
+.icon-check:before {
+    content: "\e92b";
+}
+.icon-choose-file-2:before {
+    content: "\e92a";
+}
+.icon-comment:before {
+    content: "\e917";
+}
+.icon-copy-text:before {
+    content: "\e914";
+}
+.icon-docx:before {
+    content: "\e915";
+}
+.icon-pdf:before {
+    content: "\e916";
+}
+.icon-align-center:before {
+    content: "\e918";
+}
+.icon-align-justify:before {
+    content: "\e919";
+}
+.icon-align-left:before {
+    content: "\e91a";
+}
+.icon-align-right:before {
+    content: "\e91b";
+}
+.icon-arrows:before {
+    content: "\e91c";
+}
+.icon-bold:before {
+    content: "\e91d";
+}
+.icon-image:before {
+    content: "\e91e";
+}
+.icon-italic:before {
+    content: "\e91f";
+}
+.icon-line:before {
+    content: "\e920";
+}
+.icon-link:before {
+    content: "\e921";
+}
+.icon-ordered-list:before {
+    content: "\e922";
+}
+.icon-quotes:before {
+    content: "\e923";
+}
+.icon-reset-format:before {
+    content: "\e924";
+}
+.icon-symbol:before {
+    content: "\e925";
+}
+.icon-underline:before {
+    content: "\e926";
+}
+.icon-undo:before {
+    content: "\e927";
+}
+.icon-unlink:before {
+    content: "\e928";
+}
+.icon-unordered-list:before {
+    content: "\e929";
+}
+.icon-arrow-back:before {
+    content: "\e900";
+}
+.icon-arrow-down:before {
+    content: "\e901";
+}
+.icon-arrow-up:before {
+    content: "\e902";
+}
+.icon-banner:before {
+    content: "\e903";
+}
+.icon-carret-down:before {
+    content: "\e904";
+}
+.icon-carret-right:before {
+    content: "\e905";
+}
+.icon-choose-file:before {
+    content: "\e906";
+}
+.icon-close:before {
+    content: "\e907";
+}
+.icon-code:before {
+    content: "\e908";
+}
+.icon-copy:before {
+    content: "\e909";
+}
+.icon-dot:before {
+    content: "\e90a";
+}
+.icon-file:before {
+    content: "\e90b";
+}
+.icon-folder:before {
+    content: "\e90c";
+}
+.icon-full-arrow-down:before {
+    content: "\e90d";
+}
+.icon-like:before {
+    content: "\e90e";
+}
+.icon-notebook:before {
+    content: "\e90f";
+}
+.icon-paper-plane:before {
+    content: "\e910";
+}
+.icon-pencil:before {
+    content: "\e911";
+}
+.icon-plus:before {
+    content: "\e912";
+}
+.icon-search:before {
+    content: "\e913";
+}

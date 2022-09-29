@@ -1,0 +1,33 @@
+@use "sass:math";
+
+.fp-watermark {
+  display: none;
+}
+
+body {
+  position: relative;
+  min-width: 320px;
+  margin: auto;
+  background-color: $color-grey;
+  color: $color-black;
+  font-family: $font-main;
+  font-size: $fontsize;
+}
+
+.cont {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: perc(1280);
+}
+
+section {
+  position: relative;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  //overflow-x: hidden;
+  padding: 30px 15px;
+}
